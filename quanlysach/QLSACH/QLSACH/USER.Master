@@ -1,0 +1,359 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="USER.master.cs" Inherits="QLSACH.USER" %>
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giao diện Sách</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <style>
+        body {
+            margin: 0; 
+            font-family: Tahoma;
+            background-color: #dceaf8; 
+            overflow: hidden;   
+        }
+        .loader {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            z-index: 9999;
+        }
+        .book {
+            width: 100px;
+            height: 150px;
+            background: url('https://example.com/book-cover.png') no-repeat center;
+            background-size: cover;
+            animation: flip 1s infinite;
+        }
+        @keyframes flip {
+            0%, 100% { transform: rotateY(0); }
+            50% { transform: rotateY(180deg); }
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-image:url(img/bggo.jpg); 
+        }
+        .menu {
+            border:none;
+            display: flex;
+            align-items: center; 
+        }
+        .menu .button {
+            margin-left: 10px;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #51a7bf; 
+            color: #b5f9ff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .menu .button:hover {
+            background-color: #5a6268; 
+        }
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            background-color: #f8f9fa;
+            padding: 10px 20px;
+            border-bottom: 1px solid;
+        }
+        .nav-menu a {
+            text-transform: uppercase;
+            font-size:25px;
+            margin: 0 25px;
+            text-decoration: none;
+            color: #052c3b;
+            transition: color 0.3s;
+        }
+        .nav-menu a:hover {
+            color: #0056b3;
+        }
+        .container {
+            display: flex;
+            height: 1000px; 
+        }
+        .slideshow {
+            height: 500px; 
+            position: relative;
+            max-width: 100%; 
+            overflow: hidden;
+            margin: 20px auto; 
+            display: block;   
+        }
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+        .sidebar {
+            width: 30%;
+            background-color: #FDF4CB; 
+            padding: 20px;
+            border-right: 1px solid ;
+            box-sizing: border-box;
+        }
+        .content {
+            height:1000px;
+            width: 70%;
+            padding: 20px;
+            box-sizing: border-box; 
+            background-color:#fdf4cb;
+        }
+        .sidebar h3 {
+            color: #070000; 
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar li {
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+        .sidebar li:hover {
+            background-color: #e2e6ea;
+            cursor: pointer;
+        }
+        .submenu {
+            margin-left: 20px; 
+            display: none; 
+        }
+        .submenu li {
+            padding: 5px 0;
+        }
+        .link{
+            text-decoration:none;
+        }
+        footer {
+            color: #b5f9ff;
+            border:none;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; 
+            padding: 10px 20px;
+            background-image:url(img/bggo.jpg); 
+        }
+        .footer-left, .footer-center, .footer-right {
+            width: 30%;
+            border:none;
+        }
+        .footer-left p, .footer-center h4, .footer-right h4 {
+            margin: 5px 0;
+            border:none;
+        }
+        .footer-right a {
+            border:none;
+            text-decoration: none;
+            color: #b5f9ff;
+            transition: color 0.3s;
+        }
+        .footer-right a:hover {
+            color: #0056b3; 
+        }
+        a {
+            font-weight: bold;
+        }
+        
+        .search-container {
+        display: flex;
+    align-items: center;
+    
+    }
+
+    .search-input {
+        padding: 10px 15px; 
+        font-size: 14px; 
+        border: none; 
+        border-radius: 5px 0 0 5px; 
+        width: 220px; 
+        transition: all 0.3s; 
+    }
+
+    .search-input:focus {
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+        outline: none; 
+    }
+
+    .search-button {
+        padding: 10px 15px; 
+        font-size: 14px; 
+        border: none; 
+border-radius: 0 5px 5px 0; 
+        background-color: #007bff; 
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s; 
+    }
+
+    .search-button:hover {
+        background-color: #0056b3; 
+        transform: translateY(-1px); 
+    }
+
+    .search-button:active {
+            transform: translateY(1px); 
+    }
+    .cart{
+        color:#51a7bf;
+        
+    }  
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="loader">
+        <div class="book"></div>
+    </div>
+
+    <header>
+        <img src="img/logostore.jpg" alt="Logo" width="50">
+        <div class="menu">
+            <div style="color:#b5f9ff;border:none;">
+                Xin chào 
+                <asp:Label ID="LabelTen" runat="server" Text="" ForeColor="#007bff"></asp:Label>
+            </div>
+            <asp:Button ID="Button1" runat="server" Text="Tài Khoản" Class="button" OnClick="Button1_Click" />
+            <div class="cart"><a href="Giohang.aspx"><ion-icon name="cart-outline" style="width:100px;
+height:70px;"></ion-icon></a></div>
+        </div>
+    </header> 
+    <div class="slideshow">
+        <div class="slides" id="slides">
+            <div class="slide"><img src="img/banner1.jpg" alt="Slide 1" style="width: 100%;height:500px;" align="center"></div>
+            <div class="slide"><img src="img/banner2.jpg" alt="Slide 2" style="width: 100%;height:500px;" align="center"></div>
+            <div class="slide"><img src="img/banner3.jpg" alt="Slide 3" style="width: 100%;height:500px;" align="center"></div>
+        </div>
+    </div>
+    <div class="nav-menu">
+        <a href="Homereal.aspx">Trang Chủ</a>
+        <a href="Home.aspx">Sản Phẩm</a>
+        <a href="Datsach.aspx">Đặt sách</a>
+        <a href="Lienhe.aspx">Giới Thiệu</a>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <h3>Tìm Sách Theo Danh Mục</h3>
+            <!-- Phần tìm kiếm -->
+            <div class="search-container">
+                        
+                       <asp:TextBox ID="TextBox1" runat="server" placeholder="Tìm kiếm..." class="search-input"></asp:TextBox>
+                       
+                <asp:Button ID="Button2" runat="server"  class="search-button" OnClick="Button2_Click" /> <i class="fa-solid fa-magnifying-glass" style="margin-left:-25px;z-index:100;color:white;"></i>
+                    </div>
+            <ul>
+                <li onclick="toggleSubmenu('submenu1')">Thể Loại</li>
+                <ul id="submenu1" class="submenu">
+                    <li>
+                        <asp:DataList ID="DataList1" runat="server" >
+                            <ItemTemplate>
+                                <asp:HyperLink ID="HyperLink1" class="link" runat="server" NavigateUrl='<%# "viewloai?maloai=" + Eval("maloai") %>' Text='<%# Eval("tenloai") %>' ></asp:HyperLink>
+                            </ItemTemplate>
+                        </asp:DataList>
+                    </li>
+                </ul>
+                <li onclick="toggleSubmenu('submenu2')">Nhà xuất Bản</li>
+                <ul id="submenu2" class="submenu">
+                    <li>
+                        <asp:DataList ID="DataList2" runat="server">
+                            <ItemTemplate>
+                                <asp:HyperLink ID="HyperLink1" class="link" runat="server" NavigateUrl='<%# "viewnxb?manxb=" + Eval("manxb") %>' Text='<%# Eval("nxb") %>'></asp:HyperLink>
+                            </ItemTemplate>
+                        </asp:DataList>
+                    </li>
+                </ul>
+                <li onclick="toggleSubmenu('submenu3')">Tác Giả</li>
+                <ul id="submenu3" class="submenu">
+                    <li>
+                        <asp:DataList ID="DataList3" runat="server">
+                            <ItemTemplate>
+                                <asp:HyperLink ID="HyperLink1" class="link" runat="server" NavigateUrl='<%# "Viewtacgia?matacgia=" + Eval("matacgia") %>' Text='<%# Eval("tentg") %>'></asp:HyperLink>
+                            </ItemTemplate>
+                        </asp:DataList>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+        <div class="content" style="overflow-y: scroll;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-left">
+            <img src="img/logostore.jpg" alt="Logo" width="50">
+            <p>Địa chỉ: Đường số 1, TP.HCM</p>
+            <p>SDT: 0385 - 496 - 282</p>
+            <p>Email: Kimnb@mindx.net.vn</p>
+        </div>
+        <div class="footer-center">
+            <h4>Danh mục</h4>
+            <ul>
+                <li>Thể Loại</li>
+                <li>Tác Giả</li>
+                <li>Nhà Xuất Bản</li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <h4>Liên kết</h4>
+            <ul>
+                <li><a href="Home.aspx">Trang chủ</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="Datsach.aspx">Đặt sách</a></li>
+            </ul>
+            <div id="map" style="width: 100%; height: 145px;border:none;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3716.961238829658!2d105.39337027530871!3d21.312547880408697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31348de7e680a8df%3A0xceafbd228b67326c!2zVmluY29tIFBsYXphIFZp4buHdCBUcsOs!5e0!3m2!1svi!2s!4v1727893527203!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.onload = function () {
+            document.querySelector('.loader').style.display = 'none';
+            document.body.style.overflow = 'auto';
+            startSlideshow();
+        };
+
+        let currentSlide = 0;
+
+        function showSlide(slideIndex) {
+            const slides = document.getElementById("slides");
+            const totalSlides = slides.children.length;
+            if (slideIndex >= totalSlides) {
+                currentSlide = 0;
+            } else if (slideIndex < 0) {
+                currentSlide = totalSlides - 1;
+            } else {
+                currentSlide = slideIndex;
+            }
+            slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+
+        function startSlideshow() {
+            setInterval(() => {
+                showSlide(currentSlide + 1);
+            }, 3000);
+        }
+
+        function toggleSubmenu(submenuId) {
+            const submenu = document.getElementById(submenuId);
+            submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
+        }
+        
+    </script>
+    </form>
+</body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</html>

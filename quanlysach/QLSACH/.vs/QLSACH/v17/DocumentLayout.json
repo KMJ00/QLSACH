@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\cuoikyquanlysach\\QLSACH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|D:\\cuoikyquanlysach\\QLSACH\\qlsach\\qtsach.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\qtsach.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|D:\\cuoikyquanlysach\\QLSACH\\qlsach\\qtloai.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\qtloai.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|D:\\cuoikyquanlysach\\QLSACH\\qlsach\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|d:\\cuoikyquanlysach\\qlsach\\qlsach\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|D:\\cuoikyquanlysach\\QLSACH\\qlsach\\giohang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\giohang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|D:\\cuoikyquanlysach\\QLSACH\\qlsach\\chitiet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\chitiet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|D:\\cuoikyquanlysach\\QLSACH\\qlsach\\master.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\master.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|D:\\cuoikyquanlysach\\QLSACH\\qlsach\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|D:\\cuoikyquanlysach\\QLSACH\\qlsach\\viewnxb.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\viewnxb.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|D:\\cuoikyquanlysach\\QLSACH\\qlsach\\viewtacgia.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\viewtacgia.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|D:\\cuoikyquanlysach\\QLSACH\\qlsach\\lienhe.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\lienhe.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|D:\\cuoikyquanlysach\\QLSACH\\qlsach\\qtsach.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\qtsach.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|D:\\cuoikyquanlysach\\QLSACH\\qlsach\\datsach.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\datsach.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|D:\\cuoikyquanlysach\\QLSACH\\qlsach\\chitiet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\chitiet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|D:\\cuoikyquanlysach\\QLSACH\\qlsach\\qthd.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C18FF7AD-FA8C-4E9D-848F-B702B930BEA8}|QLSACH\\QLSACH.csproj|solutionrelative:qlsach\\qthd.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\Home.aspx",
+              "RelativeDocumentMoniker": "QLSACH\\Home.aspx",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\Home.aspx",
+              "RelativeToolTip": "QLSACH\\Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-02T06:24:34.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MASTER.Master.designer.cs",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\MASTER.Master.designer.cs",
+              "RelativeDocumentMoniker": "QLSACH\\MASTER.Master.designer.cs",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\MASTER.Master.designer.cs",
+              "RelativeToolTip": "QLSACH\\MASTER.Master.designer.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T03:05:06.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Viewtacgia.aspx",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\Viewtacgia.aspx",
+              "RelativeDocumentMoniker": "QLSACH\\Viewtacgia.aspx",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\Viewtacgia.aspx",
+              "RelativeToolTip": "QLSACH\\Viewtacgia.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-19T01:32:37.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "viewnxb.aspx",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\viewnxb.aspx",
+              "RelativeDocumentMoniker": "QLSACH\\viewnxb.aspx",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\viewnxb.aspx",
+              "RelativeToolTip": "QLSACH\\viewnxb.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-19T01:32:03.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MASTER.Master",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\MASTER.Master",
+              "RelativeDocumentMoniker": "QLSACH\\MASTER.Master",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\MASTER.Master",
+              "RelativeToolTip": "QLSACH\\MASTER.Master",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-19T01:30:51.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Lienhe.aspx",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\Lienhe.aspx",
+              "RelativeDocumentMoniker": "QLSACH\\Lienhe.aspx",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\Lienhe.aspx",
+              "RelativeToolTip": "QLSACH\\Lienhe.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-19T01:30:19.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Giohang.aspx",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\Giohang.aspx",
+              "RelativeDocumentMoniker": "QLSACH\\Giohang.aspx",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\Giohang.aspx",
+              "RelativeToolTip": "QLSACH\\Giohang.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-19T01:29:36.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QTSach.aspx",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\QTSach.aspx",
+              "RelativeDocumentMoniker": "QLSACH\\QTSach.aspx",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\QTSach.aspx",
+              "RelativeToolTip": "QLSACH\\QTSach.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-19T01:21:24.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QTSach.aspx.cs",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\QTSach.aspx.cs",
+              "RelativeDocumentMoniker": "QLSACH\\QTSach.aspx.cs",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\QTSach.aspx.cs",
+              "RelativeToolTip": "QLSACH\\QTSach.aspx.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T01:20:49.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QTHD.aspx.cs",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\QTHD.aspx.cs",
+              "RelativeDocumentMoniker": "QLSACH\\QTHD.aspx.cs",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\QTHD.aspx.cs",
+              "RelativeToolTip": "QLSACH\\QTHD.aspx.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAvwG0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:47:44.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Datsach.aspx.cs",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\Datsach.aspx.cs",
+              "RelativeDocumentMoniker": "QLSACH\\Datsach.aspx.cs",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\Datsach.aspx.cs",
+              "RelativeToolTip": "QLSACH\\Datsach.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:47:40.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QTLoai.aspx",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\QTLoai.aspx",
+              "RelativeDocumentMoniker": "QLSACH\\QTLoai.aspx",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\QTLoai.aspx",
+              "RelativeToolTip": "QLSACH\\QTLoai.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-18T09:45:50.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ketnoi.cs",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\ketnoi.cs",
+              "RelativeDocumentMoniker": "QLSACH\\ketnoi.cs",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\ketnoi.cs",
+              "RelativeToolTip": "QLSACH\\ketnoi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:31:52.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "chitiet.aspx",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\chitiet.aspx",
+              "RelativeDocumentMoniker": "QLSACH\\chitiet.aspx",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\chitiet.aspx",
+              "RelativeToolTip": "QLSACH\\chitiet.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-18T09:31:49.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "chitiet.aspx.cs",
+              "DocumentMoniker": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\chitiet.aspx.cs",
+              "RelativeDocumentMoniker": "QLSACH\\chitiet.aspx.cs",
+              "ToolTip": "D:\\cuoikyquanlysach\\QLSACH\\QLSACH\\chitiet.aspx.cs",
+              "RelativeToolTip": "QLSACH\\chitiet.aspx.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:31:48.355Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
